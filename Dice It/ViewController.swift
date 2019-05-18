@@ -23,11 +23,23 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Show statistics such as fps and timing information
         sceneView.showsStatistics = true
         
-        // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
+//        // Create a new scene
+//        let scene = SCNScene(named: "art.scnassets/ship.scn")!
+//
+//        // Set the scene to the view
+//        sceneView.scene = scene
         
-        // Set the scene to the view
-        sceneView.scene = scene
+        let cube = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0.01)
+        
+        let material = SCNMaterial()
+        material.diffuse.contents = UIColor.red
+        
+        cube.materials = [material]
+        
+        let node = SCNNode(geometry: cube)
+        node.position = SCNVector3(0, 0.1, -0.5)
+        
+        sceneView.scene.rootNode.addChildNode(node)
     }
     
     override func viewWillAppear(_ animated: Bool) {
