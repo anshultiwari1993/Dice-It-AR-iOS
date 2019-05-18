@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EF44446222906B5100975B62 /* Dice It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF44446222906B5100975B62 /* Dice It AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice It AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF44446522906B5100975B62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF44446722906B5100975B62 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		EF44446922906B5100975B62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 		EF44445922906B5000975B62 = {
 			isa = PBXGroup;
 			children = (
-				EF44446422906B5100975B62 /* Dice It */,
+				EF44446422906B5100975B62 /* Dice It AR */,
 				EF44446322906B5100975B62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,12 +48,12 @@
 		EF44446322906B5100975B62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF44446222906B5100975B62 /* Dice It.app */,
+				EF44446222906B5100975B62 /* Dice It AR.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EF44446422906B5100975B62 /* Dice It */ = {
+		EF44446422906B5100975B62 /* Dice It AR */ = {
 			isa = PBXGroup;
 			children = (
 				EF44446522906B5100975B62 /* AppDelegate.swift */,
@@ -64,15 +64,15 @@
 				EF44447022906B5500975B62 /* LaunchScreen.storyboard */,
 				EF44447322906B5500975B62 /* Info.plist */,
 			);
-			path = "Dice It";
+			path = "Dice It AR";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF44446122906B5100975B62 /* Dice It */ = {
+		EF44446122906B5100975B62 /* Dice It AR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF44447622906B5500975B62 /* Build configuration list for PBXNativeTarget "Dice It" */;
+			buildConfigurationList = EF44447622906B5500975B62 /* Build configuration list for PBXNativeTarget "Dice It AR" */;
 			buildPhases = (
 				EF44445E22906B5100975B62 /* Sources */,
 				EF44445F22906B5100975B62 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Dice It";
+			name = "Dice It AR";
 			productName = "Dice It";
-			productReference = EF44446222906B5100975B62 /* Dice It.app */;
+			productReference = EF44446222906B5100975B62 /* Dice It AR.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EF44445D22906B5000975B62 /* Build configuration list for PBXProject "Dice It" */;
+			buildConfigurationList = EF44445D22906B5000975B62 /* Build configuration list for PBXProject "Dice It AR" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF44446122906B5100975B62 /* Dice It */,
+				EF44446122906B5100975B62 /* Dice It AR */,
 			);
 		};
 /* End PBXProject section */
@@ -288,12 +288,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P773Y3V87Q;
-				INFOPLIST_FILE = "Dice It/Info.plist";
+				INFOPLIST_FILE = "Dice It AR/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anshultiwari.Dice-It";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anshultiwari.Dice-It-AR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,12 +306,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P773Y3V87Q;
-				INFOPLIST_FILE = "Dice It/Info.plist";
+				INFOPLIST_FILE = "Dice It AR/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.anshultiwari.Dice-It";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anshultiwari.Dice-It-AR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -321,7 +321,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EF44445D22906B5000975B62 /* Build configuration list for PBXProject "Dice It" */ = {
+		EF44445D22906B5000975B62 /* Build configuration list for PBXProject "Dice It AR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF44447422906B5500975B62 /* Debug */,
@@ -330,7 +330,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF44447622906B5500975B62 /* Build configuration list for PBXNativeTarget "Dice It" */ = {
+		EF44447622906B5500975B62 /* Build configuration list for PBXNativeTarget "Dice It AR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF44447722906B5500975B62 /* Debug */,
